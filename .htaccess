@@ -1,0 +1,13 @@
+
+Options All -Indexes
+ServerSignature Off
+
+<Files ~ "\.([Hh][Tt])">
+Order allow,deny
+Deny from All
+</Files>
+
+<Files *.html>
+Order allow,deny
+Allow from All
+</Files>
